@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports cars</title>
+</head>
+<style>
+    a {
+        text-decoration: none;
+    }
+    ol{
+        list-style-type: none;
+        margin: 80px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: underline;
+        background-color:rgba(123, 172, 155, 0.719) ;
+        padding: 70px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0;
+        color: aliceblue;
+    }
+    h1{
+        text-align: center;
+        font-size: 70px;
+        background-color: rgb(123, 172, 155);
+        margin-top: 0%;
+        padding: 30px;
+        color: aliceblue;
+        border: 1px solid rgb(123, 172, 155);
+    }
+    #Hatchback:hover{
+        opacity: 0.7;
+    }
+    #button{
+        float: right;
+        font-size: 30px;
+        margin-top: 0px;
+        color: aliceblue;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-right: 30px;
+        text-decoration: underline;
+    }
+    #Hatchback{
+        border: 2px solid darkslategrey;
+        padding-left: 70px;
+        padding-top: 350px;
+        vertical-align: baseline;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(193, 216, 236);
+        background-color: rgba(255, 140, 0, 0.712);
+        
+    }
+    .H1{
+        background-image:
+  linear-gradient(to bottom, rgba(255, 255, 0, 0.246), rgba(0,0,255,0.267)),
+  url('https://pictures.topspeed.com/IMG/jpg/201807/audi-sport-performan-4.jpg');
+        background-position: 70px;
+    }
+    .H2{
+        background-image:
+  linear-gradient(to bottom, rgba(255, 255, 0, 0.246), rgba(0, 0, 255, 0.267)),
+  url('https://www.hdcarwallpapers.com/walls/ford_mustang_4k_2-HD.jpg');
+        background-size: 1500px;
+        background-repeat:repeat-x;
+        background-position: 70px;
+    }
+    .H3{
+        background-image:
+  linear-gradient(to bottom, rgba(255, 255, 0, 0.246), rgba(0, 0, 255, 0.267)),
+  url('https://hdqwalls.com/wallpapers/2018-dodge-challenger-srt-demon-4k.jpg');
+        background-size: 1500px;
+        background-repeat:repeat-x;
+        background-position: 70px;
+    }
+    .H4{
+        background-image:
+  linear-gradient(to bottom, rgba(255, 255, 0, 0.246), rgba(0, 0, 255, 0.267)),
+  url('https://www.hdcarwallpapers.com/walls/mclaren_600lt_2018_4k-HD.jpg');
+        background-size: 1500px;
+        background-repeat:repeat-x;
+        background-position: 70px;
+    }
+    .H5{
+        background-image:
+  linear-gradient(to bottom, rgba(255, 255, 0, 0.246), rgba(0, 0, 255, 0.267)),
+  url('https://www.hdcarwallpapers.com/walls/bugatti_chiron_pur_sport_2020_4k_8k-HD.jpg');
+        background-size: 1500px;
+        background-repeat:repeat-x;
+        background-position: 70px;
+    }
+    body{
+        background-color: rgb(119, 124, 141);
+    }
+</style>
+<body>
+    <h1>Here arrives your magestic rides!!</h1>
+    <a href="audi"><div id='Hatchback' class="H1">Audi R8</div></a>
+    <a href="ford"><div id='Hatchback' class="H2">Ford Mustang</div></a>
+    <a href="dodge"><div id='Hatchback' class="H3">Dodge</div></a>
+    <a href="Mlar"><div id='Hatchback' class='H4'>MC Laren 600lt</div></a>
+    <a href="Buga"><div id='Hatchback' class='H5'>Buggati Chiron</div></a>
+    
+    <ol>
+        <li>ACTIVE FRONTEND CONTRIBUTORS : </li>
+        <li>HITANSHU PATIL (1110_TCS)</li>
+        <li>SACHIN MINDE </li>
+        
+        <li>ACTIVE BACKEND CONTRIBUTORS : </li>
+        <li>SARANG KULKARNI</li>
+    </ol>
+    <a onclick="goBack()" style="cursor: pointer;"><div id='button' >Back</div></a>
+    
+
+    <script>
+    function goBack() {
+    window.history.back();
+    }
+    </script>
+    
+</body>
+</html>
